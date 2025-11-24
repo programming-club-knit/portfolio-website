@@ -93,14 +93,19 @@ footer {
 /* BUG: Icons misaligned */
 .social-icons {
     display: flex;
-    flex-direction: row; /* Should be row */
+    flex-direction: column; /* Should be row */
     margin-top: 10px;
 }
 
 .social-icons a {
     color: white;
-    margin: 0 10px; /* Should be margin: 0 10px */
+    margin: 5px 0; /* Should be margin: 0 10px */
     text-decoration: none;
 }
 
 /* BUG: Missing Media Queries for Mobile Responsiveness */
+
+
+#home h1{
+    color: blue;
+}
