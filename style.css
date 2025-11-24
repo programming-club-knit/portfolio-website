@@ -104,3 +104,40 @@ footer {
 }
 
 /* BUG: Missing Media Queries for Mobile Responsiveness */
+/* project */
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.project-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+    padding: 20px;
+    flex-wrap: wrap;  
+    margin-top: 10px;
+}
+
+.project-content{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-title{
+ text-align: center;
+ display: block;
+ font-size: 20px;
+ margin-bottom: 10px;
+}
