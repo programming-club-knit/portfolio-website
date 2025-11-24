@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="logo">DevPortfolio</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <!-- BUG: Wrong ID for projects -->
-            <li><a href="#project">Projects</a></li>
-            <!-- BUG: Wrong ID for contact -->
-            <li><a href="#contact-me">Contact</a></li>
-        </ul>
+      <div class="logo">DevPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <!-- BUG: Wrong ID for projects -->
+        <li><a href="#project">Projects</a></li>
+        <!-- BUG: Wrong ID for contact -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <header id="home" class="hero">
-        <h1>Hi, I'm a Web Developer</h1>
-        <p>Building things for the web.</p>
-        <button>View Work</button>
+      <h1>Hi, I'm a Web Developer</h1>
+      <p>Building things for the web.</p>
+      <button>View Work</button>
     </header>
 
     <!-- BUG: Class name mismatch. CSS uses .about-section -->
-    <section id="about" class="about-section">
-        <h2>About Me</h2>
-        <p>I am a passionate developer who loves coding and solving problems.</p>
+    <section id="about" class="about-us">
+      <h2>About Me</h2>
+      <p>I am a passionate developer who loves coding and solving problems.</p>
     </section>
 
     <!-- BUG: Projects section is missing -->
     <!-- Projects Section Should Go Here -->
-
+    <section id="project" class="project">
+      <h2>Project</h2>
+      <div></div>
+    </section>
+    <!-- contact section -->
     <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <form>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Message"></textarea>
-            <button type="submit">Send</button>
-        </form>
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
     </section>
 
     <footer>
-        <p>&copy; 2023 My Portfolio</p>
-        <div class="social-icons">
-            <a href="#">Twitter</a>
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-        </div>
+      <p>&copy; 2023 My Portfolio</p>
+      <div class="social-icons">
+        <a href="#">Twitter</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
