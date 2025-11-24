@@ -53,6 +53,33 @@ body {
     text-align: center;
     background: #fff;
 }
+.project-section {
+    padding: 4rem 2rem;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+.project-section h2 {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+ .card {
+    text-align: center;
+    width: 300px;
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.card-body{
+    text-align: center;
+    padding-top: 10px;
+}
 
 .contact {
     padding: 4rem 2rem;
@@ -102,5 +129,23 @@ footer {
     margin: 0 10px; /* Should be margin: 0 10px */
     text-decoration: none;
 }
-
-/* BUG: Missing Media Queries for Mobile Responsiveness */
+@media (max-width: 480px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .input-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  body{
+    font-size: 10px;
+  }
+}
