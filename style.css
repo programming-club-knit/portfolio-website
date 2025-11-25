@@ -129,11 +129,23 @@ footer {
     margin: 0 10px; /* Should be margin: 0 10px */
     text-decoration: none;
 }
-@media(max-width: 600px){
-    .footer{
-        width: 100%;
-        padding: 10px;
-    }
+@media (max-width: 480px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .input-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  body{
+    font-size: 10px;
+  }
 }
-
-/* BUG: Missing Media Queries for Mobile Responsiveness */
